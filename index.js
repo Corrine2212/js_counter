@@ -28,3 +28,7 @@ function save() {
     countEl.textContent = 0
     count = 0;
 }
+
+function clearLog() {
+    saveEl.textContent = ' ';
+}
